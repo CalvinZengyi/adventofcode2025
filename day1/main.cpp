@@ -7,6 +7,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
+
 int calculateDistance(std::vector<int> &leftList, std::vector<int> &rightList) {
   std::sort(leftList.begin(), leftList.end());
   std::sort(rightList.begin(), rightList.end());
